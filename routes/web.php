@@ -15,6 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('/signup', 'SiteController@signup') {
-	return view('signup');
-}
+Route::post('/signup', 'SiteController@signup');

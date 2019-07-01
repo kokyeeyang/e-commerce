@@ -1,8 +1,10 @@
-<div class="common_content_wrapper admin_login_log_list">
-  <div class="common_content_inner_wrapper">
-    <h4 class="widget_title">Add new product
-    </h4>
-    <form method="post" enctype="multipart/form-data" id="whiteListForm" name="whiteListForm">
+<head>
+  <link rel="stylesheet" type="text/css" href="../css/addnewproduct.css">
+</head>
+<div class="product_form">
+  <div class="content_wrapper">
+    <h4 class="widget_title">Add new product</h4>
+    <form method="post" id="productForm" name="productForm">
     	<table style="line-height: 32px;padding-left: 10px;font-size: 15px;">
     		<tr>
     			<td>Product name</td>
