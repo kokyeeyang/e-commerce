@@ -2,8 +2,9 @@
   <link rel="stylesheet" type="text/css" href="../css/signup.css">
 </head>
 
-<form action="" style="border:1px solid #ccc">
+<form action="welcome.blade.php" style="border:1px solid #ccc">
 <!-- <form action="<?php // echo $this->createUrl('site/saveProduct') ?>" style="border:1px solid #ccc"> -->
+  <?php var_dump($this); ?>
   <div class="container">
     <h1>Sign Up</h1>
     <p>Please fill in this form to create an account.</p>
